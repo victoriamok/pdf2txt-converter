@@ -26,7 +26,7 @@ source <name_of_virtualenv>/bin/activate
 cd <name_of_virtualenv>
 pip3 install -r requirements.txt
 ```
-**4. Set the pdf source and output path**
+**4. Set the pdf source and txt output path**
 ```
 pdf_dir = '/your/path/to/pdf/files/'
 txt_dir = '/your/path/to/txt/files/'
