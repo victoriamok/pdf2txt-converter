@@ -1,6 +1,6 @@
 # PDF-TXT-converter
 
-Small and simple pdf-to-txt converter based on the pdfminer package. 
+Small and simple pdf-to-txt converter that uses the pdfminer package. 
 
 ## Requirements
 
