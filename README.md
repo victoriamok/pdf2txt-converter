@@ -17,7 +17,7 @@ git clone https://github.com/victoriamok/pdf2txt-converter.git
 ```
 python3 -m venv <name_of_virtualenv>
 ```
-Activate your virtual environment
+     Activate your virtual environment
 ```
 source <name_of_virtualenv>/bin/activate
 ```
@@ -31,7 +31,7 @@ pip3 install -r requirements.txt
 pdf_dir = '/your/path/to/pdf/files/'
 txt_dir = '/your/path/to/txt/files/'
 ```
-**4. Run the script**
+**5. Run the script**
 ```
 python3 pdf2txt.py 
 ```
