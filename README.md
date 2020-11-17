@@ -17,7 +17,7 @@ git clone https://github.com/victoriamok/pdf2txt-converter.git
 ```
 python3 -m venv <name_of_virtualenv>
 ```
-     Activate your virtual environment
+To activate your virtual environment, run
 ```
 source <name_of_virtualenv>/bin/activate
 ```
