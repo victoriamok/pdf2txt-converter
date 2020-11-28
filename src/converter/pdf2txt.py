@@ -39,8 +39,8 @@ def convert_multiple(pdf_dir, txt_dir):
 
 
 def main(argv):
-    pdf_dir = '/your/path/to/pdf/files/'
-    txt_dir = '/your/path/to/txt/files/'
+    pdf_dir = '/Users/viktoriiamokriak/Documents/Personal/CV/cv/'
+    txt_dir = '/Users/viktoriiamokriak/Documents/Personal/CV/cv/'
     try:
         opts, args = getopt.getopt(argv, 'ip:t:')
     except getopt.GetoptError:
