@@ -1,4 +1,6 @@
-import getopt, io, os, sys
+import io
+import os
+import sys
 import argparse
 from pdfminer.converter import TextConverter
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
@@ -63,7 +65,7 @@ def main():
     # Extract input and output directories from command line arguments
     pdf_dir = sys.argv[1]
     txt_dir = sys.argv[2]
-    
+
     # Convert PDF files to text
     convert_multiple(pdf_dir, txt_dir)
 
