@@ -48,7 +48,7 @@ def convert_multiple(pdf_dir, txt_dir):
             # If text is extracted successfully
             if text is not None:
                 # Original filename without extension
-                filename = os.path.splitext(pdf)[0]  
+                filename = os.path.splitext(pdf)[0] 
                 # Create the full path for the output text file
                 text_filename = os.path.join(txt_dir, f"{filename}.txt")
                 # Write the extracted text to the output text file
